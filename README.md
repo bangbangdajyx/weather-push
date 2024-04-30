@@ -18,13 +18,15 @@ SpringBoot 项目（公众号推送早安问候以及天气预报）
 
 ## 模板示例如下
 ```text
-{{date.DATA}}
-{{remark.DATA}}
-{{city.DATA}}的天气：{{weather.DATA}}
-最低气温：{{low.DATA}}度
-最高气温：{{high.DATA}}度
-今天是我们恋爱的第{{loveDays.DATA}}天
-距离宝宝的生日还有{{birthdays.DATA}}天{{rainbow.DATA}}
+早上好呀小吉的宇宙无敌第一美少女老婆{{remork.DATA}}
+今天是：{{date.DATA}}
+所在地区：{{city.DATA}}
+当前天气：{{weather.DATA}} 
+当前温度：{{temp.DATA}} °
+最高温度：{{high.DATA}}° 
+最低温度：{{low.DATA}}°
+今天是我们在一起的第{{loveDays.DATA}}天啦❤ 
+今天也是爱老婆的一天呀😘
 ```
 
 ## 关于百度地图开放平台

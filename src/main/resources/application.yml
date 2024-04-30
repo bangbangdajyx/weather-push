@@ -1,12 +1,21 @@
 server:
-  port: 80
+  port: 8085
 wechat:
-  appId: 'wxce241a5c57a2757e'
-  secret: '16fdb7799d932e2091cf5ef166972d3d'
-  userId: 'oihNs5k9_qy744fWhFVMlkXt0AQ0'
-  templateId: 'wlXaOi9Y93m5oAIVoXIsAzyBS6AW_e5l8EnQQxiJlYE'
+  appId: 'wx9840dfe69789d1d0'
+  secret: '08e1e853f72cc57d1b1cccfbe19be3c9'
+  userId: 'oph2P6CIwivsKphnXw5OyXPa_Lco'
+  templateId: 'sakRNj4mUabVpL4d5-IQXxmZG_TKjPZGmriAg-uwMWA'
   district_id: '321281'
   ak: 'OlThi7uaq9VqaE1KAE7QEnQsNY5uMRwK'
   loveDate: '2021-10-16'
   birthday: '2001-04-14'
   rainbowKey: '173f6e2411018023decccd230e3cd4fa'
+
+
+knife4j:
+  enable: true
+
+# 日志
+logging:
+  file:
+    path: D:/xjaxl
